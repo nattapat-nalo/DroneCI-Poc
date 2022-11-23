@@ -8,3 +8,4 @@ steps:
       - echo hello
       - echo world
       - echo eiei
+      - echo test
