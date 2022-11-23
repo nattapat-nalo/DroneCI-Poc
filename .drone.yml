@@ -6,9 +6,10 @@ platform:
   arch: arm64
 
 steps:
-  - name: install dependencies
+  - name: clean and install dependencies
     image: node
     commands:
+      - rm -rf node_modules
       - npm install
 
   - name: lint check
