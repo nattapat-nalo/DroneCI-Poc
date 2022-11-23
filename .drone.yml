@@ -9,6 +9,7 @@ steps:
   - name: clean and install dependencies
     image: node
     commands:
+      - rm package-lock.json
       - rm -rf node_modules
       - npm install
 
