@@ -10,3 +10,8 @@ steps:
     image: node
     commands:
       - npm install
+
+  - name: lint check
+    image: node
+    commands:
+      - npm run lint
