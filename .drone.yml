@@ -6,10 +6,7 @@ platform:
   arch: arm64
 
 steps:
-  - name: greeting
+  - name: install dependencies
     image: alpine
     commands:
-      - echo hello
-      - echo world
-      - echo eiei
-      - echo test
+      - npm install
