@@ -9,4 +9,4 @@ steps:
   - name: install dependencies
     image: node
     commands:
-      - npm install
+      - npm install --registry https://registry.npmjs.org
