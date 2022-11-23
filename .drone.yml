@@ -7,6 +7,6 @@ platform:
 
 steps:
   - name: install dependencies
-    image: alpine
+    image: node
     commands:
       - npm install
