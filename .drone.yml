@@ -1,9 +1,10 @@
 kind: pipeline
+type: exec
 name: default
 
-# platform:
-#   os: linux
-#   arch: arm64
+platform:
+  os: linux
+  arch: arm64
 
 steps:
   - name: clean and install dependencies
